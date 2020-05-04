@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { View, FlatList } from 'react-native';
 import { CAMPSITES } from '../shared/campsites';
-import { Tile } from 'react-native-elements';
+import { View, FlatList} from 'react-native';
 import { connect } from 'react-redux';
+import { Tile } from 'react-native-elements';
 import { baseUrl } from '../shared/baseUrl';
 import Loading from './LoadingComponent';
 
